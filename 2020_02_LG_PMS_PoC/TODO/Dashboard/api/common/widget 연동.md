@@ -9,3 +9,11 @@ PlatformAPI.publish("actualChart", {"projectId" : $("#selectProject").val()});
 // PlatformAPI.subscribe("호출받을 자신의 id", 호출받은 데이터를 처리할 자신의 function);
 PlatformAPI.subscribe("actualChart", myWidget.selectUserRow);
 ```
+
+- 멀티테이블 호출
+```
+PlatformAPI.publish("Add_Ids", {
+    "ids" : [this.id]
+    , "doInit" : true
+});
+```

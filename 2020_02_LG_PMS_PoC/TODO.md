@@ -1,16 +1,22 @@
 아쉬웠던 점/개선방안
 - Dashboard 개발이 처음이라서 시간 산정이 어려웠고 걸린 시간에 비해 결과물이 좋지 못했다.
   - Dashboard 사용에 필요한 각 기능에 대하여 api문서를 만들어놓자.
-    - Dashboard api 문서 작성
+    - [v] Dashboard api 문서 작성
       - Dashboard 개발에 필요한 기능 정리
         - widget 간 데이터 주고받기
         - widget 기본 api
         - widget에 component 위치시키기
         - DB에서 데이터 조회
         - event 등록
-    - Dashboard에 필요한 기본 template 구성
+    - [v] Dashboard에 필요한 기본 template 구성
     - [v] uwa.netvibes.com tutorial 따라해보기
       - uwa.netvibes.com 따라하기.xlsx
+    - widget template 만들기
+      - simple card
+      - drop down menu
+      - chart
+        - bar
+        - circle
 - css요소에 대한 이해가 부족하여 화면에 각 컴포넌트를 배치하는데 어려움을 겪었다.
   - css 관련 속성에 대한 이해 및 화면 렌더링에 대한 기본 요소들을 공부하자.
     - css 공부 계획 세워서 실행
