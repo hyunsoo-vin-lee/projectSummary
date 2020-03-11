@@ -1,0 +1,117 @@
+{
+    "version": 6,
+    "entities": [
+        {
+            "entity": {
+                "type": "Project",
+                "id": "3558b7f4-591d-4fed-9538-6b0129bcff35",
+                "name": "WebService"
+            },
+            "children": [
+                {
+                    "entity": {
+                        "type": "Scenario",
+                        "id": "6940d8da-bd2d-4c61-94c1-8c61e9f5c3cf",
+                        "name": "Scenario 1"
+                    }
+                },
+                {
+                    "entity": {
+                        "type": "Request",
+                        "method": {
+                            "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+                            "name": "GET"
+                        },
+                        "body": {
+                            "formBody": {
+                                "overrideContentType": true,
+                                "encoding": "application/x-www-form-urlencoded",
+                                "items": []
+                            },
+                            "bodyType": "Text"
+                        },
+                        "uri": {
+                            "query": {
+                                "delimiter": "&",
+                                "items": []
+                            },
+                            "scheme": {
+                                "name": "http",
+                                "version": "V11"
+                            },
+                            "host": "localhost:9080",
+                            "path": "/WebService/rest/stringlist"
+                        },
+                        "id": "5d9ebc11-87cc-4eea-a76a-e38a1f5f2ace",
+                        "name": "01. stringList",
+                        "headers": []
+                    }
+                },
+                {
+                    "entity": {
+                        "type": "Request",
+                        "method": {
+                            "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+                            "name": "GET"
+                        },
+                        "body": {
+                            "formBody": {
+                                "overrideContentType": true,
+                                "encoding": "application/x-www-form-urlencoded",
+                                "items": []
+                            },
+                            "bodyType": "Text"
+                        },
+                        "uri": {
+                            "query": {
+                                "delimiter": "&",
+                                "items": []
+                            },
+                            "scheme": {
+                                "name": "http",
+                                "version": "V11"
+                            },
+                            "host": "localhost:9080",
+                            "path": "/WebService/test/barChartData"
+                        },
+                        "id": "88ecc71a-09f6-4498-91f3-4f453dd2b2a4",
+                        "name": "02. barChartData",
+                        "headers": []
+                    }
+                },
+                {
+                    "entity": {
+                        "type": "Request",
+                        "method": {
+                            "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+                            "name": "GET"
+                        },
+                        "body": {
+                            "formBody": {
+                                "overrideContentType": true,
+                                "encoding": "application/x-www-form-urlencoded",
+                                "items": []
+                            },
+                            "bodyType": "Text"
+                        },
+                        "uri": {
+                            "query": {
+                                "delimiter": "&",
+                                "items": []
+                            },
+                            "scheme": {
+                                "name": "http",
+                                "version": "V11"
+                            },
+                            "host": "localhost:9080",
+                            "path": "/WebService/test/circleChartData"
+                        },
+                        "id": "730a0ea9-ed7a-46b0-9a48-793b7d4b9ff6",
+                        "name": "03. circleChartData",
+                        "headers": []
+                    }
+                }
+            ]
+        }
+    ]
+}
